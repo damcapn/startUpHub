@@ -10,10 +10,6 @@
 
   <body>
 
-
-
-
-
   <div class="jumbotron">
     <!-- Button to open the modal login form -->
   <button onclick="document.getElementById('id01').style.display='block'">Login</button>
@@ -26,7 +22,7 @@
     <!-- Modal Content -->
     <form class="modal-content animate" action="action_page.php">
       <div class="imgcontainer">
-        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        <img src="startUpLogo3.png" alt="Avatar" class="avatar">
       </div>
 
       <div class="container">
