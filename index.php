@@ -14,6 +14,7 @@
     <!-- Button to open the modal login form -->
   <button onclick="document.getElementById('id01').style.display='block'">Login</button>
 
+
   <!-- The Modal -->
   <div id="id01" class="modal">
     <span onclick="document.getElementById('id01').style.display='none'"
@@ -40,11 +41,42 @@
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
+
+
+      <div class="container">
+        <label><b>First Name</b></label>
+        <input type="text" placeholder="First Name" name="uname" required>
+
+        <label><b>Last Name</b></label>
+        <input type="text" placeholder="Last Name" name="uname" required>
+      </div>
+
+        <div class="container">
+          <label><b>Business Name</b></label>
+          <input type="text" placeholder="Business Name" name="uname" required>
+
+          <label><b>EIN Number</b></label>
+          <input type="text" placeholder="EIN Number" name="uname" required>
+        </div>
+
+        <div class="container">
+          <label><b>Email</b></label>
+          <input type="text" placeholder="Email" name="uname" required>
+
+          <label><b>Password</b></label>
+          <input type="text" placeholder="Password" name="uname" required>
+
+          <label><b>Confirm Password</b></label>
+          <input type="text" placeholder="Confirm Password" name="uname" required>
+        </div>
+        <button type="submit">Register</button>
+
+      </div>
+
     </form>
+
   </div>
   </div>
-
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   </body>
