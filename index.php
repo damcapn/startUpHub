@@ -26,7 +26,8 @@
     <!-- Modal Content -->
     <form class="modal-content animate" action="action_page.php">
       <div class="imgcontainer">
-        <img src="startUpLogo.png" alt="Avatar" class="avatar">
+        <img src="startUpLogo.png">
+        "alt="Avatar" class="avatar">
       </div>
 
       <div class="container">
