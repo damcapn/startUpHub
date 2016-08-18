@@ -5,7 +5,7 @@
     <title> Start Up Hub </title>
    <?php require_once("lib/headutils.php");?>
     <link rel="stylesheet" href="lib/css/style.css">
-
+    <link rel="short icon" href="lib/images/startUpLogo3.ico"/>
   </head>
 
   <body>
@@ -22,7 +22,7 @@
     <!-- Modal Content -->
     <form class="modal-content animate" action="action_page.php">
       <div class="imgcontainer">
-        <img src="startUpLogo3.png" alt="Avatar" class="avatar">
+        <img src="lib/images/startUpLogo3.ico" alt="Avatar" class="avatar">
       </div>
 
       <div class="container">
